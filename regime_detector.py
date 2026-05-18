@@ -42,10 +42,10 @@ DEFAULT_CONFIG = {
 # ── Regime levels → position size multiplier + TP/SL ──────────
 REGIME_LEVELS = {
     0: {'label': 'STRONG',  'emoji': '🟢', 'size_mult': 1.00, 'tp': 0.075, 'sl': 0.038},
-    1: {'label': 'NORMAL',  'emoji': '🟡', 'size_mult': 0.75, 'tp': 0.075, 'sl': 0.038},
-    2: {'label': 'CAUTION', 'emoji': '🟠', 'size_mult': 0.50, 'tp': 0.050, 'sl': 0.025},
-    3: {'label': 'WEAK',    'emoji': '🔴', 'size_mult': 0.25, 'tp': 0.030, 'sl': 0.015},
-    4: {'label': 'DANGER',  'emoji': '⛔', 'size_mult': 0.10, 'tp': 0.020, 'sl': 0.015},
+    1: {'label': 'NORMAL',  'emoji': '🟡', 'size_mult': 0.85, 'tp': 0.075, 'sl': 0.038},
+    2: {'label': 'CAUTION', 'emoji': '🟠', 'size_mult': 0.70, 'tp': 0.065, 'sl': 0.038},
+    3: {'label': 'WEAK',    'emoji': '🔴', 'size_mult': 0.55, 'tp': 0.060, 'sl': 0.038},
+    4: {'label': 'DANGER',  'emoji': '⛔', 'size_mult': 0.40, 'tp': 0.055, 'sl': 0.038},
 }
 
 
